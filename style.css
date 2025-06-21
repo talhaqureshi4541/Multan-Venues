@@ -36,12 +36,6 @@ body {
     transform: scale(1.03);
 }
 
-.card-img-top {
-  max-height: 200px;
-  width: 100%;
-  object-fit: cover;
-}
-
 .search-section {
     background: url('hero_section.jpg') center/cover no-repeat;
     height: 60vh;
