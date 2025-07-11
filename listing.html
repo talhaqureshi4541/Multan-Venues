@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Multan Venues</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#" id="logo">
+                Multan<strong>Venues <i class="fa-solid fa-ring"></i></strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="listing">Listing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-section">
+        <div class="container search-bar">
+            <form class="row g-3" id="searchForm">
+                <div class="col-md-4">
+                    <input id="hallNameInput" type="text" class="form-control" placeholder="Marriage Hall name...">
+                </div>
+                <div class="col-md-4">
+                    <input id="guestInput" type="number" class="form-control" placeholder="Number of guests...">
+                </div>
+                <div class="col-md-3">
+                    <select id="citySelect" class="form-select">
+                        <option value="City">City</option>
+                        <option value="Multan">Multan</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Karachi">Karachi</option>
+                    </select>
+                </div>
+                <div class="col-md-1">
+                    <button type="submit" class="btn btn-danger w-110">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Halls Listing -->
+    <main class="container my-5">
+        <h2 class="fw-bold text-center mb-4">All Marriage Halls</h2>
+        <div class="row cards justify-content-center">
+            <!-- Hall Cards -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="sagan-events.html"><img src="0.jpg" class="card-img-top" alt="Sagan Events"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Sagan Events</h5>
+                        <p class="card-text">Syedan Wali Khoi, Multan</p>
+                        <p class="Capacity">Capacity: 800</p>
+                        <p class="price">Starting Price: 600 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="al-arafat.html"><img src="1.jpg" class="card-img-top" alt="Al Arafat Banquet Hall"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Al Arafat Banquet Hall</h5>
+                        <p class="card-text">Mohalla Nawazabad, Multan</p>
+                        <p class="Capacity">Capacity: 500</p>
+                        <p class="price">Starting Price: 1250 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="al-barkat.html"><img src="2.jpg" class="card-img-top" alt="Al Barkat Marriage Hall"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Al Barkat Marriage Hall</h5>
+                        <p class="card-text">Gulzaib Colony, Multan</p>
+                        <p class="Capacity">Capacity: 1000</p>
+                        <p class="price">Starting Price: 1150 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="al-haram.html"><img src="3.jpg" class="card-img-top" alt="Al Haram Marriage Hall"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Al Haram Marriage Hall</h5>
+                        <p class="card-text">Shah Rukn E Alam, Multan</p>
+                        <p class="Capacity">Capacity: 600</p>
+                        <p class="price">Starting Price: 1300 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="al-madina.html"><img src="4.jpg" class="card-img-top" alt=" AL MADINA MARRIAGE HALL"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Al Madina Marriage Hall</h5>
+                        <p class="card-text">Peoples Colony, Multan</p>
+                        <p class="Capacity">Capacity: 1000</p>
+                        <p class="price">Starting Price: 700 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="chandni.html"><img src="5.jpg" class="card-img-top" alt="Chandni Marriage Hall"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Chandni Marriage Hall</h5>
+                        <p class="card-text">Mohalla Sadiqabad, Multan</p>
+                        <p class="Capacity">Capacity: 1000</p>
+                        <p class="price">Starting Price: 1250 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="garrison.html"><img src="6.jpg" class="card-img-top" alt="IR Garrison Marquee"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">IR Garrison Marquee</h5>
+                        <p class="card-text">Cantt Residential Area, Multan</p>
+                        <p class="Capacity">Capacity: 1000</p>
+                        <p class="price">Starting Price: 2100 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="index_2.html"><img src="7.jpg" class="card-img-top" alt="Sagan Events"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Noor Jahan Events & Marquee</h5>
+                        <p class="card-text">Sabzazar Colony, Multan</p>
+                        <p class="Capacity">Capacity: 1000</p>
+                        <p class="price">Starting Price: 1300 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="index_2.html"><img src="8.jpg" class="card-img-top" alt="Sagan Events"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Noor Mahal Marriage Hall</h5>
+                        <p class="card-text">Bukhari Colony, Multan</p>
+                        <p class="Capacity">Capacity: 1300</p>
+                        <p class="price">Starting Price: 1100 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="index_2.html"><img src="9.jpg" class="card-img-top" alt="Sagan Events"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Qasr e Saleem Marquee</h5>
+                        <p class="card-text">Nawab Pur, Multan</p>
+                        <p class="Capacity">Capacity: 800</p>
+                        <p class="price">Starting Price: 900 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="index_2.html"><img src="10.jpg" class="card-img-top" alt="Sagan Events"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Sapna Marriage Club</h5>
+                        <p class="card-text">Faiz Town, Multan</p>
+                        <p class="Capacity">Capacity: 900</p>
+                        <p class="price">Starting Price: 700 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="index_2.html"><img src="11.jpg" class="card-img-top" alt="Sagan Events"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Sheesh Mahal Marriage Hall</h5>
+                        <p class="card-text">Rehman Colony, Multan</p>
+                        <p class="Capacity">Capacity: 1000</p>
+                        <p class="price">Starting Price: 700 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="index_2.html"><img src="12.jpg" class="card-img-top" alt="Sagan Events"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Shah Jahan Royal Banquet Hall</h5>
+                        <p class="card-text">Officers Colony, Multan</p>
+                        <p class="Capacity">Capacity: 600</p>
+                        <p class="price">Starting Price: 1100 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="index_2.html"><img src="13.jpg" class="card-img-top" alt="Sagan Events"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Shahtaj Marriage Hall</h5>
+                        <p class="card-text">Ansar Colony, Multan</p>
+                        <p class="Capacity">Capacity: 1000</p>
+                        <p class="price">Starting Price: 1050 PKR/person</p>
+                    </div>
+                </div>
+            </div> -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="taj-mahal.html"><img src="14.jpg" class="card-img-top" alt="Taj Mahal"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Taj Mahal</h5>
+                        <p class="card-text">Altaf Town, Multan</p>
+                        <p class="Capacity">Capacity: 1000</p>
+                        <p class="price">Starting Price: 1700 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="the-fort.html"><img src="15.jpg" class="card-img-top" alt="The Fort Banquet"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">The Fort Banquet</h5>
+                        <p class="card-text">Defence Officer Colony, Multan</p>
+                        <p class="Capacity">Capacity: 700</p>
+                        <p class="price">Starting Price: 1400 PKR/person</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add other cards below like this -->
+        </div>
+    </main>
+    <footer class="bg-dark text-light pt-5 pb-4 mt-5">
+        <div class="container text-md-left">
+            <div class="row text-md-left">
+                <!-- About -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h5 class="text-uppercase fw-bold">Multan Venues</h5>
+                    <p>Find the best marriage halls across Multan and other cities of Pakistan. Search by name,
+                        capacity, and city to plan your perfect event.</p>
+                </div>
+
+                <!-- Links -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="home.html" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-light text-decoration-none">About</a></li>
+                        <li><a href="contact.html" class="text-light text-decoration-none">Contact</a></li>
+                        <li><a href="listing.html" class="text-light text-decoration-none">Marriage Halls</a></li>
+                    </ul>
+                </div>
+
+                <!-- Cities -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold">Cities</h6>
+                    <ul class="list-unstyled">
+                        <li>Multan</li>
+                        <li>Lahore</li>
+                        <li>Islamabad</li>
+                        <li>Karachi</li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold">Contact</h6>
+                    <p><i class="fas fa-home me-2"></i> Multan, Pakistan</p>
+                    <p><i class="fas fa-envelope me-2"></i> info@multanvenues.com</p>
+                    <p><i class="fas fa-phone me-2"></i> +92 311 3637834</p>
+                    <p>
+                        <i class="fab fa-whatsapp me-2"></i>
+                        <a href="https://wa.me/923113637834" target="_blank" class="text-light text-decoration-none">
+                            Chat on WhatsApp
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="mb-4">
+
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p class="text-center text-md-start">© 2025 Multan Venues. All rights reserved.</p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-end">
+                        <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

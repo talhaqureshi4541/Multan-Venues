@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#navbarNav a:hover {
+    color: red;
+}
+
+#logo strong {
+    color: red;
+}
+
+#logo:hover {
+    color: #fff;
+
+    strong {
+        color: red;
+    }
+}
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.search-section {
+    background: url('hero_section.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 900px;
+}
+
